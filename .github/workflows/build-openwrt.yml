@@ -16,9 +16,12 @@ on:
     types: published
   push:
     branches:
-      - main
+   #   - main
+      - ' '
     paths:
-      - '.config'
+     # - '.config'
+       - ''
+  workflow_dispatch: 
 #  schedule:
 #    - cron: 0 8 * * 5 
   watch:
